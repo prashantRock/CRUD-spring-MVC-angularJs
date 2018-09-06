@@ -33,10 +33,7 @@ public class StudentController {
 	public ModelAndView listPage() {
 		ModelAndView modelAndView = new ModelAndView();
 		List<Student> listStudentRecord = studentService.fetchStudentList();
-		System.out.println("**************************"+listStudentRecord.size());
-		System.out.println("**************************"+listStudentRecord.size());
-		System.out.println("**************************"+listStudentRecord.size());
-		System.out.println("**************************"+listStudentRecord.size());
+	
 		modelAndView.addObject("listStudentRecord", listStudentRecord);
 		modelAndView.setViewName("studentList");
 		return modelAndView;

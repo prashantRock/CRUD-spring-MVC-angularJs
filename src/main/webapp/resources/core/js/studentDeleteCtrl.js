@@ -1,4 +1,4 @@
-var mymodal = angular.module('deleteCtrl', []);
+var mymodal = angular.module('deleteCtrl', ['helloWorld']);
 
 mymodal.controller('studentDeleteCtrl', function ($scope) {
 	$scope.showModal = false;

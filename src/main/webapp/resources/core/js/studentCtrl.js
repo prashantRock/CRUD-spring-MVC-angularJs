@@ -1,4 +1,4 @@
-angular.module("createCtrl", []).controller("studentCtrl", ['$scope', '$http', function($scope, $http) {
+angular.module("createCtrl", ['helloWorld']).controller("studentCtrl", ['$scope', '$http', function($scope, $http) {
 	$scope.createStudentRecord = function () {
 		var studentCO = {'firstName':$scope.first_name,'lastName':$scope.last_name , 'emailId':$scope.email_id};
 		$http({

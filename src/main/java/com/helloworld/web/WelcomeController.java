@@ -17,12 +17,12 @@ import com.helloworld.service.HelloWorldService;
 public class WelcomeController {
 
 
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	/*@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index(Map<String, Object> model) {
 
 	
 		return "index";
-	}
+	}*/
 
 
 }

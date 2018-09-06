@@ -27,6 +27,7 @@ public class StudentService {
 	public int createStudent(StudentCO studentCO) {
 		Student student = new Student(studentCO);
 		getSession().save(student);
+		
 		getSession().close();
 		return student.getId();
 	}
